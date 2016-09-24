@@ -2,6 +2,11 @@ export default function ncache(def, limit) {
   const map = new Map()
   const timeouts = new Map()
 
+  /**
+   * Creates clear, delete and set methods for a size limited cache.
+   *
+   * @returns {Array} [clear, set, delete] functions
+   */
   function limited() {
     const keys = []
 
@@ -58,6 +63,11 @@ export default function ncache(def, limit) {
     ]
   }
 
+  /**
+   * Creates standard clear, delete and set methods
+   *
+   * @returns {Array} [clear, set, delete] functions
+   */
   function unlimited() {
     function _clear() {
       map.clear()
