@@ -2,7 +2,7 @@
 
 > A JS Map that supports key expiration
 
-[![Build Status](https://semaphoreci.com/api/v1/axdg/ncache/branches/master/shields_badge.svg)](https://semaphoreci.com/axdg/ncache)
+[![Build Status](https://semaphoreci.com/api/v1/axdg/ncache/branches/master/shields_badge.svg)](https://semaphoreci.com/axdg/ncache) [![Circle CI](https://circleci.com/gh/axdg/ncache/tree/master.svg?style=shield)](https://circleci.com/gh/axdg/ncache/tree/master)
 
 ### Installation
 
